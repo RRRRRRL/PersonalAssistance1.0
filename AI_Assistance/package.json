@@ -1,0 +1,32 @@
+{
+  "name": "ai_assistance",
+  "version": "0.1.0",
+  "description": "AI Assistance Overlay — desktop productivity assistant (SvelteKit frontend)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "tauri": "tauri"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^10.9.3",
+    "@sveltejs/kit": "^2.65.1",
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
+    "svelte": "^5.56.3",
+    "svelte-check": "^4.6.0",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.20",
+    "typescript": "~6.0.3",
+    "vite": "^8.0.16",
+    "@tauri-apps/cli": "^2"
+  }
+}
